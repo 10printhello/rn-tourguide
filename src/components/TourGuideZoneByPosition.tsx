@@ -20,6 +20,7 @@ export interface TourGuideZoneByPositionProps {
   tooltipBottomOffset?: number
   text?: string
   emoji?: string
+  iconName?: string
 }
 
 export const TourGuideZoneByPosition = ({
@@ -38,7 +39,8 @@ export const TourGuideZoneByPosition = ({
   tooltipBottomOffset,
   borderRadiusObject,
   text,
-  emoji
+  emoji,
+  iconName,
 }: TourGuideZoneByPositionProps) => {
   if (!isTourGuide) {
     return null
@@ -59,7 +61,8 @@ export const TourGuideZoneByPosition = ({
           tooltipBottomOffset,
           borderRadiusObject,
           text,
-          emoji
+          emoji,
+          iconName,
         }}
         style={{
           position: 'absolute',

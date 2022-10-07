@@ -15,5 +15,6 @@ export interface TourGuideZoneProps {
     tooltipBottomOffset?: number;
     borderRadiusObject?: BorderRadiusObject;
     emoji?: string;
+    iconName?: string;
 }
-export declare const TourGuideZone: ({ isTourGuide, tourKey, zone, children, shape, text, maskOffset, borderRadius, style, keepTooltipPosition, tooltipBottomOffset, borderRadiusObject, emoji, }: TourGuideZoneProps) => JSX.Element;
+export declare const TourGuideZone: ({ isTourGuide, tourKey, zone, children, shape, text, maskOffset, borderRadius, style, keepTooltipPosition, tooltipBottomOffset, borderRadiusObject, emoji, iconName, }: TourGuideZoneProps) => JSX.Element;
