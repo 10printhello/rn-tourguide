@@ -13,6 +13,7 @@ interface Props {
     keepTooltipPosition?: boolean;
     tooltipBottomOffset?: number;
     borderRadiusObject?: BorderRadiusObject;
+    emoji?: string;
 }
 export declare const Step: (props: Props) => JSX.Element;
 export {};

@@ -16,6 +16,7 @@ interface Props {
   keepTooltipPosition?: boolean
   tooltipBottomOffset?: number
   borderRadiusObject?: BorderRadiusObject
+  emoji?: string
 }
 
 export const Step = (props: Props) => {
